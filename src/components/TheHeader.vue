@@ -93,7 +93,7 @@ nav a {
   z-index: 5;
   width: 150px;
   transform: perspective(600px) rotateX(-90deg);
-  transform-origin: 0% 0%;
+  transform-origin: 0 0;
   transition: .6s ease-in-out;
 }
 .topmenu > li:hover .submenu{
