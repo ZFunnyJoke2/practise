@@ -1,28 +1,29 @@
 <template>
-  <div class="container">
-    <div class="header">
-      <div class="logo">
-        <a href="#"><img src="../assets/img/TheSopranosLogo.jpg" alt="TheSopranos"></a>
+  <header>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+          <a href="#"><img src="../assets/img/TheSopranosLogo.jpg" alt="TheSopranos"></a>
+        </div>
+        <nav>
+          <ul class="topmenu">
+            <li><a href="" class="down">Seasons</a>
+              <ul class="submenu">
+                <li><a href="">Season 1</a></li>
+                <li><a href="">Season 2</a></li>
+                <li><a href="">Season 3</a></li>
+                <li><a href="">Season 4</a></li>
+                <li><a href="">Season 5</a></li>
+                <li><a href="">Season 6</a></li>
+              </ul>
+            </li>
+            <li><router-link :to="{name:''}" class="down">Characters</router-link></li>
+            <li><router-link :to="{name:''}">About</router-link></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul class="topmenu">
-          <li><a href="" class="down">Seasons</a>
-            <ul class="submenu">
-              <li><a href="">Season 1</a></li>
-              <li><a href="">Season 2</a></li>
-              <li><a href="">Season 3</a></li>
-              <li><a href="">Season 4</a></li>
-              <li><a href="">Season 5</a></li>
-              <li><a href="">Season 6</a></li>
-            </ul>
-          </li>
-          <li><router-link :to="{name:''}" class="down">Characters</router-link></li>
-          <li><router-link :to="{name:''}">About</router-link></li>
-        </ul>
-      </nav>
     </div>
-  </div>
-
+  </header>
 </template>
 
 <script>
@@ -30,10 +31,10 @@
 </script>
 
 <style>
+
 .container {
   margin: 0 auto;
   box-sizing: border-box;
-
 }
 .header{
   display: flex;
@@ -82,10 +83,10 @@ nav a {
 .down:after {
   margin-left: 8px;
 }
-.topmenu li a:hover { color: darkred; }
+.topmenu li a:hover { color: #c82222; }
 .submenu {
   background: black;
-  border: 2px solid darkred;
+  border: 2px solid #c82222;
   position: absolute;
   left: 0;
   visibility: hidden;

@@ -3,12 +3,10 @@
 </script>
 
 <template>
-  <div class="parallax">
-    <div class="mask">
-      <div class="main">
+
         <div class="first-block">
           <div class="first-information">
-            <h2>Welcome to The Soprano</h2>
+            <h2>Welcome to The Sopranos family</h2>
             <div class="first-info">
               <img src="../assets/img/MainSoprano.jpg" alt="SopranoMain">
               <pre>
@@ -34,36 +32,11 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
+
 </template>
 
-<style>
-.parallax {
-  background: url(../assets/img/Background-image.jpg) fixed no-repeat;
-  background-size: cover;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  color: #ffffff;
-  font-size: 60px;
-  align-items: center;
-  position: relative;
-}
-.parallax .mask {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,.6);
-  z-index: 2;
-}
-.main{
-  height: 100vh;
-  width: 90%;
-  margin-left: 5%;
-  background:rgba(0,0,0,0.5);
-}
+<style scoped>
+
 .first-info{
   margin-top: 40px;
   display: flex;
@@ -86,6 +59,6 @@
   padding-top: 50px;
   display: flex;
   justify-content: center;
-  color: indianred;
+  color: #c82222;
 }
 </style>
