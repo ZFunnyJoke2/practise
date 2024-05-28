@@ -3,7 +3,6 @@
 </script>
 
 <template>
-
         <div class="first-block">
           <div class="first-information">
             <h2>Welcome to The Sopranos family</h2>

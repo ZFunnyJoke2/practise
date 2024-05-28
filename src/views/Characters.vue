@@ -2,7 +2,8 @@
 
 import TheFooter from "@/components/TheFooter.vue";
 import TheHeader from "@/components/TheHeader.vue";
-import DescriptionOfCharacters from "@/components/DescriptionOfCharacters.vue";
+import DescriptionOfCharacters from "@/components/CharactersComponents/DescriptionOfCharacters.vue";
+import BecomeAFan from "@/components/CharactersComponents/BecomeAFan.vue";
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import DescriptionOfCharacters from "@/components/DescriptionOfCharacters.vue";
     <div class="mask">
       <div class="shadow-back">
         <DescriptionOfCharacters/>
+        <BecomeAFan></BecomeAFan>
       </div>
     </div>
   </div>
@@ -21,6 +23,10 @@ import DescriptionOfCharacters from "@/components/DescriptionOfCharacters.vue";
 *{
   margin: 0;
   box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Monospace';
+  src: url(../assets/fonts/MonospaceRegular.ttf);
 }
 .parallax {
   background: url(../assets/img/CharactersBack.png) fixed no-repeat;
