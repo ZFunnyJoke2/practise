@@ -27,6 +27,15 @@ export default {
 </template>
 
 <style scoped>
+@font-face {
+  font-family: 'Monospace';
+  src: url(../assets/fonts/MonospaceRegular.ttf);
+}
+
+@font-face {
+  font-family: 'MonospaceBold';
+  src: url(../assets/fonts/MonospaceBold.ttf);
+}
 .parallax {
   background: url(../assets/img/Background-image.jpg) fixed no-repeat;
   background-size: cover;

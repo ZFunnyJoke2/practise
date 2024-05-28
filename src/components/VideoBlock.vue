@@ -23,6 +23,9 @@
 </template>
 
 <style scoped>
+*{
+  font-family: Monospace, sans-serif;
+}
 .playlist{
   padding-top: 200px;
   display: flex;
@@ -37,6 +40,9 @@
   color: white;
 }
 .text h3{
+  color: #c82222;
+}
+.text a:hover{
   color: #c82222;
 }
 .img img{

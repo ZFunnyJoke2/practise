@@ -39,6 +39,9 @@
 </template>
 
 <style scoped>
+*{
+  font-family: Monospace, sans-serif;
+}
 
 .footer {
   margin: 0 auto;
@@ -80,7 +83,59 @@
   color: MintCream;
 }
 
-.second-block{
+.second-block {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
   background-color: black;
+  color: #fff;
+}
+
+.second-block .big-links,
+.second-block .small-links{
+  font-size: 20px;
+}
+.second-block .big-links ul,
+.second-block .small-links ul,
+.second-block .copyright ul {
+  list-style: none;
+  padding: 0;
+}
+
+.second-block .big-links ul li,
+.second-block .small-links ul li,
+.second-block .copyright ul li {
+  margin-bottom: 10px;
+}
+
+.second-block .big-links a,
+.second-block .small-links a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 16px;
+}
+
+.second-block .big-links a:hover,
+.second-block .small-links a:hover {
+  color: #c82222;
+}
+
+.second-block .big-links ul li,
+.second-block .small-links ul li {
+  margin-bottom: 8px;
+}
+
+.second-block .copyright p {
+  margin: 5px 0;
+}
+
+.second-block .copyright {
+  font-size: 16px;
+  font-weight: bold
+}
+
+.second-block .copyright ul li {
+  margin-bottom: 5px;
 }
 </style>

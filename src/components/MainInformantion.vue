@@ -36,12 +36,17 @@
 </template>
 
 <style scoped>
+*{
+  font-family: Monospace, sans-serif;
+}
 
 .first-info{
   margin-top: 40px;
   display: flex;
 }
-
+.first-information h2{
+  font-weight: bold;
+}
 .first-information img{
   width: 400px;
   height: 600px;

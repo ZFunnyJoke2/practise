@@ -3,7 +3,7 @@
     <div class="container">
       <div class="header">
         <div class="logo">
-          <a href="#"><img src="../assets/img/TheSopranosLogo.jpg" alt="TheSopranos"></a>
+          <router-link to="/"><img src="../assets/img/TheSopranosLogo.jpg" alt="TheSopranos"></router-link>
         </div>
         <nav>
           <ul class="topmenu">
@@ -17,7 +17,7 @@
                 <li><a href="">Season 6</a></li>
               </ul>
             </li>
-            <li><router-link :to="{name:''}" class="down">Characters</router-link></li>
+            <li><router-link to="/characters" class="down">Characters</router-link></li>
             <li><router-link :to="{name:''}">About</router-link></li>
           </ul>
         </nav>
@@ -31,6 +31,9 @@
 </script>
 
 <style>
+*{
+  font-family: Monospace, sans-serif;
+}
 
 .container {
   margin: 0 auto;

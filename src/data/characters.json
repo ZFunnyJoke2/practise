@@ -1,0 +1,61 @@
+[
+    {
+      "name": "Tony Soprano",
+      "image": "http://localhost:5173/src/assets/img/json-image/TonySoprano.png"
+    },
+    {
+    "name": "Dr.Melfi",
+    "image": "http://localhost:5173/src/assets/img/json-image/Dr. Melfi.png"
+    },
+    {
+    "name": "Carmela Soprano",
+    "image": "http://localhost:5173/src/assets/img/json-image/Carmela Soprano.png"
+    },
+    {
+    "name": "Chris Moltisanti",
+    "image": "http://localhost:5173/src/assets/img/json-image/Chris Moltisanti.png"
+    },
+    {
+    "name": "Junior Soprano",
+    "image": "http://localhost:5173/src/assets/img/json-image/Junior Soprano.png"
+    },
+    {
+    "name": "Big pussy",
+    "image": "http://localhost:5173/src/assets/img/json-image/Big Pussy.png"
+    },
+    {
+    "name": "Silvio Dante",
+    "image": "http://localhost:5173/src/assets/img/json-image/Silvio Dante.png"
+    },
+    {
+    "name": "Paulie Gualtieri",
+    "image": "http://localhost:5173/src/assets/img/json-image/Paulie Gualtieri.png"
+    },
+    {
+    "name": "A.J. Soprano",
+    "image": "http://localhost:5173/src/assets/img/json-image/A.J. Soprano.png"
+    },
+    {
+    "name": "Meadow Soprano",
+    "image": "http://localhost:5173/src/assets/img/json-image/Meadow Soprano.png"
+    },
+    {
+    "name": "Adriana La Cerva",
+    "image": "http://localhost:5173/src/assets/img/json-image/Adriana La Cerva.png"
+    },
+    {
+    "name": "Richie Aprile",
+    "image": "http://localhost:5173/src/assets/img/json-image/Richie Aprile.png"
+    },
+    {
+    "name": "Janice Soprano",
+    "image": "http://localhost:5173/src/assets/img/json-image/Janice Soprano.png"
+    },
+    {
+    "name": "Livia Soprano",
+    "image": "http://localhost:5173/src/assets/img/json-image/Livia Soprano.png"
+    }
+]
+
+
+
