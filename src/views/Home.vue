@@ -1,7 +1,7 @@
 <script>
 import TheHeader from '../components/TheHeader.vue'
-import MainInformation  from '../components/MainInformantion.vue'
-import VideoBlock from '../components/VideoBlock.vue'
+import MainInformation  from '../components/HomeComponents/MainInformantion.vue'
+import VideoBlock from '../components/HomeComponents/VideoBlock.vue'
 import TheFooter from "@/components/TheFooter.vue";
 export default {
   components: {
@@ -40,10 +40,7 @@ export default {
   background: url(../assets/img/Background-image.jpg) fixed no-repeat;
   background-size: cover;
   height: 2500px;
-  display: flex;
-  justify-content: center;
   color: #ffffff;
-  font-size: 60px;
   align-items: center;
   position: relative;
 }

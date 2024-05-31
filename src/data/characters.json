@@ -1,63 +1,63 @@
 [
     {
       "name": "Tony Soprano",
-      "image": "http://localhost:5175/src/assets/img/json-image/1.png"
+      "image": "/src/assets/img/json-image/done/1.png"
     },
     {
     "name": "Dr.Melfi",
-    "image": "http://localhost:5175/src/assets/img/json-image/2.png"
+    "image": "http://localhost:5174/src/assets/img/json-image/done/2.png"
     },
     {
     "name": "Carmela Soprano",
-    "image": "http://localhost:5175/src/assets/img/json-image/3.png"
+    "image": "http://localhost:5174/src/assets/img/json-image/done/3.png"
     },
     {
     "name": "Chris Moltisanti",
-    "image": "http://localhost:5175/src/assets/img/json-image/4.png"
+    "image": "http://localhost:5174/src/assets/img/json-image/done/4.png"
     },
     {
     "name": "Junior Soprano",
-    "image": "http://localhost:5175/src/assets/img/json-image/5.png"
+    "image": "http://localhost:5174/src/assets/img/json-image/done/5.png"
     },
     {
     "name": "Big pussy",
-    "image": "http://localhost:5175/src/assets/img/json-image/6.png"
+    "image": "http://localhost:5174/src/assets/img/json-image/done/6.png"
     },
     {
     "name": "Silvio Dante",
-    "image": "http://localhost:5175/src/assets/img/json-image/7.png"
+    "image": "http://localhost:5174/src/assets/img/json-image/done/7.png"
     },
     {
     "name": "Paulie Gualtieri",
-    "image": "http://localhost:5175/src/assets/img/json-image/8.jpg"
+    "image": "http://localhost:5174/src/assets/img/json-image/done/8.jpg"
     },
     {
     "name": "A.J. Soprano",
-    "image": "http://localhost:5175/src/assets/img/json-image/9.png"
+    "image": "http://localhost:5174/src/assets/img/json-image/done/9.png"
     },
     {
     "name": "Meadow Soprano",
-    "image": "http://localhost:5175/src/assets/img/json-image/10.png"
+    "image": "http://localhost:5174/src/assets/img/json-image/done/10.png"
     },
     {
     "name": "Adriana La Cerva",
-    "image": "http://localhost:5175/src/assets/img/json-image/11.png"
+    "image": "http://localhost:5174/src/assets/img/json-image/done/11.png"
     },
     {
     "name": "Richie Aprile",
-    "image": "http://localhost:5175/src/assets/img/json-image/12.png"
+    "image": "http://localhost:5174/src/assets/img/json-image/done/12.png"
     },
     {
     "name": "Janice Soprano",
-    "image": "http://localhost:5175/src/assets/img/json-image/13.png"
+    "image": "http://localhost:5174/src/assets/img/json-image/done/13.png"
     },
     {
     "name": "Livia Soprano",
-    "image": "http://localhost:5175/src/assets/img/json-image/14.png"
+    "image": "http://localhost:5174/src/assets/img/json-image/done/14.png"
     },
     {
         "name": "Bobby Bacala",
-        "image": "http://localhost:5175/src/assets/img/json-image/15.png"
+        "image": "http://localhost:5174/src/assets/img/json-image/done/15.png"
     }
 ]
 

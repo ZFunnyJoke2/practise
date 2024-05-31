@@ -7,7 +7,7 @@
           <div class="first-information">
             <h2>Welcome to The Sopranos family</h2>
             <div class="first-info">
-              <img src="../assets/img/MainSoprano.jpg" alt="SopranoMain">
+              <img src="../../assets/img/MainSoprano.jpg" alt="SopranoMain">
               <pre>
                 The Sopranos is a crime drama TV series created by David Chase, and
                 widely recognized as one of the greatest series of all time.

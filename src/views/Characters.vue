@@ -3,7 +3,6 @@
 import TheFooter from "@/components/TheFooter.vue";
 import TheHeader from "@/components/TheHeader.vue";
 import DescriptionOfCharacters from "@/components/CharactersComponents/DescriptionOfCharacters.vue";
-import BecomeAFan from "@/components/CharactersComponents/BecomeAFan.vue";
 </script>
 
 <template>
@@ -12,7 +11,6 @@ import BecomeAFan from "@/components/CharactersComponents/BecomeAFan.vue";
     <div class="mask">
       <div class="shadow-back">
         <DescriptionOfCharacters/>
-        <BecomeAFan></BecomeAFan>
       </div>
     </div>
   </div>
@@ -31,7 +29,7 @@ import BecomeAFan from "@/components/CharactersComponents/BecomeAFan.vue";
 .parallax {
   background: url(../assets/img/CharactersBack.png) fixed no-repeat;
   background-size: cover;
-  height: 2500px;
+  height: 1000px;
   display: flex;
   justify-content: center;
   color: #ffffff;
@@ -47,7 +45,7 @@ import BecomeAFan from "@/components/CharactersComponents/BecomeAFan.vue";
   z-index: 2;
 }
 .shadow-back{
-  height: 2500px;
+  height: 1000px;
   width: 90%;
   margin-left: 5%;
   background:rgba(0,0,0,0.5);

@@ -5,12 +5,12 @@
     </div>
     <div class="video-container">
       <video controls width="600" height="400">
-        <source src="../assets/video/The Sopranos - Trailer (1999).mp4" type="video/mp4" />
+        <source src="../../assets/video/The%20Sopranos%20-%20Trailer%20(1999).mp4" type="video/mp4" />
       </video>
     </div>
     <div class="playlist">
       <div class="img">
-        <img src="../assets/img/playlist.png" alt="playlist">
+        <img src="../../assets/img/playlist.png" alt="playlist">
       </div>
       <div class="text">
         <h3>The Official playlist</h3>

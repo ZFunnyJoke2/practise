@@ -9,7 +9,7 @@
 <!--  </div>-->
 
 
-  <div>
+  <div class="container">
     <h1>Main characters</h1>
     <div class="card__container">
       <div v-for="(character, index) in visibleCharacters" :key="index" class="card">
@@ -44,12 +44,16 @@ const showLess = () => {
 };
 </script>
 <style scoped>
-
+.container h1{
+  color: #c82222;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .card__container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
-
 }
 
 .card {

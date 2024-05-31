@@ -7,7 +7,7 @@
         </div>
         <nav>
           <ul class="topmenu">
-            <li><a href="" class="down">Seasons</a>
+            <li><router-link to="/season" class="down">Seasons</router-link>
               <ul class="submenu">
                 <li><a href="">Season 1</a></li>
                 <li><a href="">Season 2</a></li>
@@ -18,7 +18,7 @@
               </ul>
             </li>
             <li><router-link to="/characters" class="down">Characters</router-link></li>
-            <li><router-link :to="{name:''}">About</router-link></li>
+            <li><router-link to="/about">About</router-link></li>
           </ul>
         </nav>
       </div>
